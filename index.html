@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!-- v1.6.23-web (owner 10-15: "build webgl từ đó đi banana"): the page of the web build (npx expo export --platform web;
+     Expo's own template with the app's colours). The game is drawn by React Native Skia on a WebGL canvas (App.web.tsx).
+     The page never scrolls or zooms by itself: the shop takes the finger (a drag moves the view, two fingers zoom it), the
+     browser's pinch-zoom, double-tap zoom and pull-to-refresh are off; the lists inside the panels still scroll. -->
+<html lang="vi">
+  <head>
+    <meta name="robots" content="noindex, nofollow" />
+    <meta charset="utf-8" />
+    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no" />
+    <meta name="theme-color" content="#2a1d10" />
+    <title>Banana Banh Mi</title>
+    <style id="expo-reset">
+      html,
+      body {
+        height: 100%;
+        background: #2a1d10;
+        overscroll-behavior: none;
+        touch-action: pan-x pan-y;
+        -webkit-tap-highlight-color: transparent;
+        -webkit-text-size-adjust: 100%;
+      }
+      body {
+        margin: 0;
+        overflow: hidden;
+      }
+      #root {
+        display: flex;
+        height: 100%;
+        flex: 1;
+      }
+    </style>
+  <link rel="icon" href="/banhmichuoi-app-thu/favicon.ico"/></head>
+
+  <body>
+    <noscript>Cần bật JavaScript để chơi game. · You need to enable JavaScript to play.</noscript>
+    <div id="root"></div>
+  <script src="/banhmichuoi-app-thu/_expo/static/js/web/__expo-metro-runtime-1f8f5d3ca6b7f58204d51e14506d73fb.js" defer></script><script src="/banhmichuoi-app-thu/_expo/static/js/web/__common-da802bd7ac14d6568cae0ea59667af76.js" defer></script><script src="/banhmichuoi-app-thu/_expo/static/js/web/index-19252e4178b5670b8d0040b2d7220c4e.js" defer></script>
+</body>
+</html>
